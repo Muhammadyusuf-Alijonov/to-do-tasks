@@ -1,9 +1,9 @@
 import pymongo
 import time
 
-client = pymongo.MongoClient("mongodb+srv://alijanovm01:passInha2304@cluster0.ossutgo.mongodb.net/?retryWrites=true&w=majority")
-db = client['tasks']
-collection = db['taskcoll']
+client = pymongo.MongoClient("mongodb+srv://username:<password>@cluster0.ossutgo.mongodb.net/?retryWrites=true&w=majority")
+db = client['example'] #database name
+collection = db['example'] #collection name
 time_epoch = time.time()
 current_time = time.ctime(time_epoch)
 
