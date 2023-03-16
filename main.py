@@ -27,7 +27,7 @@ class Tasks:
 
 task = Tasks()
 while True:
-    program = int(input("1. Display all tasks.\n2. Insert new task.\n3. Delete task\n0. Exit program. "))
+    program = int(input("1. Display all tasks.\n2. Insert new task.\n3. Delete task\n0. Exit program.\nChoose a program to run: "))
     match program:
         case 1:
             task.display()
@@ -38,4 +38,3 @@ while True:
         case 0:
             print("Exiting program...")
             break
-print("Hello world")
