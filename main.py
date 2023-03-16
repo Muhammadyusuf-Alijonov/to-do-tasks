@@ -38,3 +38,4 @@ while True:
         case 0:
             print("Exiting program...")
             break
+print("Hello world")
